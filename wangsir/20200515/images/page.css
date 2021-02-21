@@ -1,0 +1,51 @@
+/* 通用分页样式 */
+
+.pages {
+    line-height: 30px;
+    padding: 15px 0;
+    margin-top: 5px;
+    clear: both;
+    padding-left: 20px;
+}
+
+.pages:after {
+    content: '.';
+    clear: both;
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+}
+
+.pages ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.pages a {
+    float: left;
+    margin-right: 5px;
+}
+
+.pages a {
+    display: block;
+    padding: 0 10px;
+    border: 1px solid #e1e1e1;
+    height: 30px;
+    line-height: 30px;
+    color: #666;
+}
+
+.pages a:hover {
+    border: 1px solid #1796f9;
+    background: #1796f9;
+    color: #fff;
+    text-decoration: none;
+}
+
+.pages a.current {
+    border: 1px solid #1796f9;
+    background: #1796f9;
+    color: #fff;
+}
